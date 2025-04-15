@@ -23,7 +23,7 @@ A Laravel-based task management system for educational institutions. It allows h
 1. Clone the repository:
    ```bash
    git clone https://github.com/SaimoomNbs/Task-Mangement.git
-   cd your-repo
+   cd Task-Mangement
 
 2. Install PHP dependencies:
     ```bash
@@ -31,15 +31,13 @@ A Laravel-based task management system for educational institutions. It allows h
 
 3. Copy the .env file and set your environment variables:
     ```bash
-    cp .env.example .env
+    copy .env.example .env
 
 4. Generate application key:
     ```bash
     php artisan key:generate
 
-5. Set up your database in .env, then run migrations:
-    ```bash
-    php artisan migrate
+5. find sql file in mail and upload it in your database. 
 
 6. Install front-end dependencies:
     ```bash
@@ -48,3 +46,12 @@ A Laravel-based task management system for educational institutions. It allows h
 7. Start the local development server:
     ```bash 
     php artisan serve
+
+8. Usage:
+    - Register as a Headmaster, Teacher, or Student
+    - Headmasters can assign tasks to Teachers
+    - Teachers can assign tasks to Students
+    - Users can view their assigned tasks in the dashboard
+    - headmaster login id & pass (headmaster@gmail.com)
+    - teacher login id & pass (teacher@gmail.com)
+    - student login id & pass (student@gmail.com)
