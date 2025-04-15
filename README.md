@@ -23,4 +23,28 @@ A Laravel-based task management system for educational institutions. It allows h
 1. Clone the repository:
    ```bash
    git clone https://github.com/SaimoomNbs/Task-Mangement.git
-   cd your-repo ```
+   cd your-repo
+
+2. Install PHP dependencies:
+    ```bash
+    composer install
+
+3. Copy the .env file and set your environment variables:
+    ```bash
+    cp .env.example .env
+
+4. Generate application key:
+    ```bash
+    php artisan key:generate
+
+5. Set up your database in .env, then run migrations:
+    ```bash
+    php artisan migrate
+
+6. Install front-end dependencies:
+    ```bash
+    npm install && npm run dev
+
+7. Start the local development server:
+    ```bash 
+    php artisan serve
